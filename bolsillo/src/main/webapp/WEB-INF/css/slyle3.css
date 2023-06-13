@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #444;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para la barra lateral */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #0288d1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #0288d1;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    margin-left: 200px;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #0288d1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #01579b;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos para el resultado del saldo */
+  #saldo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos para el ticket */
+  .ticket-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .ticket h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0288d1;
+  }
+  
+  .ticket button {
+    background-color: #0288d1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .ticket button:hover {
+    background-color: #01579b;
+  }
+  

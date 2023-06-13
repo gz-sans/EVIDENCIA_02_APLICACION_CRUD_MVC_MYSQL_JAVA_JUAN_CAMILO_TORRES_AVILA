@@ -1,0 +1,56 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcom-file-list>
+  <welcom-file>index.jsp</welcom-file>
+  </welcom-file-list>
+
+<servlet>
+  <servlet-name>Consultar3</servlet-name>
+  <servlet-class>controller.Consultar3</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>Consultar3</servlet-name>
+  <url-pattern>/consultar3</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>Usuario</servlet-name>
+        <servlet-class>controller.Usuario</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Usuario</servlet-name>
+        <url-pattern>/Usuario</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+  <servlet-name>Redireccion</servlet-name>
+  <servlet-class>controller.Redireccion</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>Redireccion</servlet-name>
+  <url-pattern>/redireccion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Consultar1</servlet-name>
+  <servlet-class>controller.Consultar1</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>Consultar1</servlet-name>
+  <url-pattern>/consultar</url-pattern>
+</servlet-mapping>
+
+</web-app>
